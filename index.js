@@ -3,7 +3,6 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    console.log("🚀 ~ file: index.js ~ line 6 ~ app.get ~ req", req)
     res.send("Hello world");
 })
 
